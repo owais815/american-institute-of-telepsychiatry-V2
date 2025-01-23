@@ -1,0 +1,158 @@
+/*----------------------------------------*/
+/*  21. BUSINESS CSS START
+/*----------------------------------------*/
+
+
+.business {
+
+  &__area {
+    padding: 270px 0;
+    text-align: center;
+    background-image: linear-gradient(var(--black), var(--black)), url(../images/bg/business.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-color: rgb(4 1 12 / 0.3);
+    position: relative;
+
+    @media #{$lg} {
+      padding: 200px 0;
+    }
+
+    @media #{$md} {
+      padding: 170px 0;
+    }
+
+    @media #{$sm} {
+      padding: 100px 0;
+    }
+
+    &::after {
+      @include position-absolute;
+      background-image: url(../images/bg/overly-2.png);
+      background-position: left bottom;
+      z-index: -1;
+    }
+
+    &-2 {
+      background-image: linear-gradient(var(--black), var(--black)), url(../images/bg/business2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: saturation;
+      padding-top: 330px;
+      position: relative;
+      z-index: 9;
+      overflow: hidden;
+
+      @media #{$md} {
+        padding-top: 150px;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: url(../images/bg/overlay.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+        mix-blend-mode: hue;
+        z-index: 0;
+      }
+
+      &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: url(../images/bg/business-2-shape2.png);
+        background-color: rgb(16 4 49 / 0.35);
+        background-repeat: no-repeat;
+        background-position: right top;
+        z-index: -1;
+      }
+
+
+      .section-sub-title::before {
+        background-color: var(--white);
+      }
+    }
+  }
+
+
+  &__content {
+    button {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 120px;
+      height: 120px;
+      border: none;
+      border-radius: 100%;
+      background-color: var(--secondary);
+      transition: all 0.3s ease;
+
+      i {
+        font-size: 25px;
+        color: var(--white);
+      }
+
+      &:hover {
+        background-color: var(--primary);
+      }
+    }
+  }
+
+
+  &__title {
+    max-width: 640px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 45px;
+
+    @media #{$sm} {
+      font-size: 30px;
+    }
+  }
+
+  &__content-2 {
+    position: relative;
+  }
+
+  &__info-2 {
+    position: absolute;
+    left: 0px;
+    bottom: 85px;
+  }
+
+  &__shape-1 {
+    margin-left: -170px;
+
+    @media #{$lg} {
+      margin-left: -250px;
+      margin-bottom: -80px;
+    }
+
+    @media #{$md} {
+      margin-left: -330px;
+      margin-bottom: -100px;
+    }
+
+    @media #{$sm} {
+      margin-bottom: -130px;
+    }
+  }
+}

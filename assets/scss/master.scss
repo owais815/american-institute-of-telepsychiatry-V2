@@ -1,0 +1,51 @@
+/*
+Template Name: Hoverax
+Theme URI: https://wealcoder.com/
+Author: WealCoder
+Author URI: https://wealcoder.com/
+Description: 
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+*/
+
+
+// Helper
+@import "helper/variables";
+@import "helper/mixins";
+@import "helper/spacing";
+
+
+// Base
+@import "base/typography";
+@import "base/base";
+
+
+// Components   
+@import "components/animation";
+@import "components/button";
+@import "components/title";
+@import "components/bg";
+@import "components/scroll";
+@import "components/modal";
+
+
+// Layout 
+@import "layout/header";
+@import "layout/hero";
+@import "layout/service";
+@import "layout/team";
+@import "layout/portfolio";
+@import "layout/blog";
+@import "layout/about-us";
+@import "layout/counter";
+@import "layout/subscribe";
+@import "layout/business";
+@import "layout/contact";
+@import "layout/breadcrumb";
+@import "layout/testimonial";
+@import "layout/price";
+@import "layout/faq";
+@import "layout/offcanvas";
+@import "layout/career";
+@import "layout/job";
+@import "layout/footer";

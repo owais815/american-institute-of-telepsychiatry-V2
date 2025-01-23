@@ -1,0 +1,129 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Hovarax - Creative Agency HTML5 Template
+    Author: Crowdyflow
+    Support: habib.crowdyflow@gmail.com
+    Description: Hovarax – is a  Creative Agency HTML5 template that comes with high-quality 3 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. VARIABLES CSS
+    02. MIXIN CSS
+    03. SPACING CSS
+    04. TYPOGRAPHY CSS
+    05. BASE CSS
+    06. ANIMATION CSS
+    07. BUTTON CSS
+    08. TITLE CSS
+    09. BG CSS
+    10. SCROLL CSS
+    11. MODAL CSS
+    12. HEADER CSS
+    13. HERO CSS
+    14. SERVICE CSS
+    15. TEAM CSS
+    16. PORTFOLIO CSS
+    17. BLOG CSS
+    18. ABOUT US CSS
+    19. COUNTER CSS
+    20. SUBSCRIBE CSS
+    21. BUSINESS CSS
+    22. CONTACT CSS
+    23. BREADCRUMB CSS
+    24. TESTIMONIAL CSS
+    25. PRICE CSS
+    26. FAQ CSS
+    27. OFFCANVAS CSS
+    28. CAREER CSS
+    29. JOB CSS
+    30. FOOTER CSS
+
+
+**********************************************/
+
+/*----------------------------------------*/
+/*  01. VARIABLES CSS START
+/*----------------------------------------*/
+
+:root {
+  // Colors
+  --primary: #5B19C8;
+  --secondary: #F15224;
+  --gray: #68666F;
+  --gray-light: #B7B6C3;
+  --gray-thin: #A099AB;
+  --gray-2: #9D9DA9;
+  --gray-3: #F2EFF6;
+  --gray-4: #68666E;
+  --gray-5: #9F9F9F;
+  --gray-6: #D7D7D7;
+  --gray-7: #9793A2;
+  --gray-8: #F7F4F9;
+  --gray-9: #A1A1A1;
+  --gray-10: #B7B6C4;
+  --gray-11: #E5DEEF;
+  --gray-12: #8A879F;
+  --gray-13: #A19FAC;
+  --gray-14: #777B83;
+  --gray-15: #A8A8A8;
+
+  --white: #FFFFFF;
+  --white-2: #F9F9F9;
+  --white-3: #F0F2F8;
+  --white-4: #F5F7F9;
+  --white-5: #FBFBFB;
+  --white-6: #F2F4F6;
+  --white-7: #EFF1F7;
+
+  --white-light: #D0CED5;
+  --black: #000000;
+  --black-darker: #030A39;
+  --black-dark: #04010C;
+  --black-light: #282F3B;
+  --black-2: #373434;
+  --black-3: #212024;
+  --black-4: #97919F;
+  --black-5: #141515;
+  --black-6: #363636;
+  --black-7: #0C0C0C;
+
+  --green: #219653;
+  --orange: #FFA439;
+  --purple: #150B2F;
+  --purple-light: #372F4E;
+  --purple-2: rgb(16 4 49 / 0.35);
+  --purple-3: #6222CC;
+  --purple-4: #5115B4;
+  --purple-5: #6E2CDC;
+  --pink: #EA4CA8;
+  --pink-2: #CFBCEF;
+  --pink-3: #F6F4F9;
+  --pink-4: #ECEFF4;
+  --blue: #0E63FF;
+  --red: #FF0000;
+  --twitter: #1DA1F2;
+  --facebook: #4267B2;
+  --linkedin: #0072AC;
+  --border-2: #F1EEF5;
+
+
+
+  // Fonts Family
+  --heading-font: 'Oswald', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+  --font-archivo: 'Archivo', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+
+// Responsive Variable
+$xxxl: 'only screen and (min-width: 1920px)';
+$xxl: 'only screen and (min-width: 1400px) and (max-width: 1919px)';
+$xl: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
+$lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (max-width: 767px)';
+$xs: '(max-width: 575px)';

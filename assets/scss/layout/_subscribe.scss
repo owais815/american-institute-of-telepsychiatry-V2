@@ -1,0 +1,197 @@
+/*----------------------------------------*/
+/*  20. SUBSCRIBE CSS START
+/*----------------------------------------*/
+
+
+.subscribe {
+
+  &__area {
+    position: relative;
+  }
+
+  &__content {
+    background-image: linear-gradient(var(--black), var(--black)), url(../images/bg/subscribe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: saturation;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    padding: 90px 60px 95px;
+    position: relative;
+    border-radius: 15px;
+    z-index: 9;
+    overflow: hidden;
+
+    @media #{$xl} {
+      padding: 80px 30px;
+    }
+
+    @media #{$lg} {
+      padding: 80px 30px 85px;
+    }
+
+    @media #{$md} {
+      text-align: center;
+      padding: 45px 20px;
+      grid-template-columns: 1fr;
+    }
+
+    @media #{$sm} {
+      text-align: center;
+      padding: 50px 20px;
+      grid-template-columns: 1fr;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgb(4 1 12 / 0.5);
+      border-radius: 15px;
+      z-index: -1;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px;
+    animation: rightshape infinite 15s;
+
+    @media #{$sm} {
+      right: -60%;
+      bottom: -120px;
+      transform: rotate(45deg);
+      animation: subs-right 5s infinite;
+    }
+
+    &-2 {
+      position: absolute;
+      right: 110px;
+      bottom: 0;
+      animation: bottomshape infinite 15s;
+      animation-delay: 7s;
+    }
+  }
+
+  &__title {
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-bottom: 15px;
+
+    @media #{$lg} {
+      font-size: 30px;
+    }
+
+    @media #{$sm} {
+      font-size: 24px;
+    }
+  }
+
+  &__left {
+    @media #{$md} {
+      position: relative;
+      z-index: 9;
+      margin-bottom: 25px;
+    }
+
+    p {
+      @include text(1rem, var(--white));
+      padding-right: 100px;
+
+      @media #{$sm} {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__right {
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media #{$sm} {
+      padding-top: 20px;
+    }
+
+    form {
+      position: relative;
+    }
+
+    input {
+      width: 100%;
+      height: 69px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-transform: capitalize;
+      border: 2px solid var(--white);
+      border-radius: 5px;
+      padding-left: 25px;
+      padding-right: 230px;
+      outline: none;
+
+      @media #{$lg} {
+        padding-right: 170px;
+      }
+
+      @media #{$sm} {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      &::placeholder {
+        color: var(--gray-7);
+      }
+    }
+
+    button {
+      height: 65px;
+      padding: 0 40px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--white);
+      border: none;
+      border-radius: 5px;
+      background-color: var(--black-dark);
+      position: absolute;
+      right: 2px;
+      top: 2px;
+      transition: all 0.3s ease;
+
+      @media #{$lg} {
+        padding: 0 10px 0 25px;
+      }
+
+      @media #{$sm} {
+        position: inherit;
+        margin-top: 15px;
+      }
+
+      &:hover {
+        background-color: var(--secondary);
+      }
+
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+}

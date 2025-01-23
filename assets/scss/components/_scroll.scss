@@ -1,0 +1,112 @@
+/*----------------------------------------*/
+/*  10. SCROLL CSS START
+/*----------------------------------------*/
+
+.pos-top {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 40px;
+  z-index: 99;
+
+  @media #{$sm} {
+    top: 20px;
+  }
+}
+
+// Scroll Down
+.scroll-down {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  max-width: 100px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  animation: scrolldown infinite 3s;
+
+  img {
+    margin: 0 auto;
+  }
+
+  a {
+    display: inline-block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: var(--white);
+    box-shadow: 0px 10px 17px rgba(223, 224, 242, 0.25);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    transition: all 0.3s ease;
+
+    i {
+      font-size: 24px;
+      color: var(--black);
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      background: var(--secondary);
+
+      i {
+        color: var(--white);
+      }
+    }
+  }
+
+  p {
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--black);
+    transform: rotate(-90deg);
+    margin-bottom: 30px;
+  }
+
+  &.right {
+    left: unset;
+    right: -195px;
+    bottom: 115px;
+    animation: scrolldown infinite 5s;
+
+    @media #{$xxl} {
+      right: 0;
+    }
+
+    @media #{$xl} {
+      right: 0;
+    }
+
+    @media #{$sm} {
+      right: 0;
+    }
+
+    p {
+      color: var(--white);
+    }
+  }
+}
+
+@keyframes scrolldown {
+  0% {
+    bottom: 100px;
+  }
+
+  50% {
+    bottom: 115px;
+  }
+
+  100% {
+    bottom: 100px;
+  }
+}

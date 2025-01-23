@@ -1,0 +1,439 @@
+/*----------------------------------------*/
+/*  15. TEAM CSS START
+/*----------------------------------------*/
+
+
+
+.team {
+
+  &__slide {
+    img {
+      width: 100%;
+      filter: grayscale(100%);
+    }
+  }
+
+  &__title-wrapper {
+
+    &-2 {
+      text-align: center;
+      padding-bottom: 70px;
+
+      @media #{$sm} {
+        padding-bottom: 40px;
+      }
+    }
+  }
+
+  &__social {
+    position: relative;
+
+    ul {
+      position: absolute;
+      height: 260px;
+      width: 70px;
+      right: -3rem;
+      top: 50%;
+      margin-top: -130px;
+      background: var(--primary);
+      text-align: center;
+      padding-top: 20px;
+      transition: all 0.3s ease;
+      opacity: 0;
+
+      li {
+        a {
+          display: inline-block;
+          font-size: 22px;
+          color: var(--white);
+          padding: 10px;
+
+          &:hover {
+            color: var(--secondary);
+          }
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        opacity: 1;
+        right: 0;
+      }
+
+      img {
+        filter: grayscale(0);
+      }
+    }
+
+    &-2 {
+      ul {
+        li {
+          display: inline-block;
+
+          a {
+            display: inline-block;
+            font-size: 22px;
+            color: var(--white);
+            padding: 10px;
+
+            &:hover {
+              color: var(--secondary);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__slide {
+    &:hover .team__detail {
+      opacity: 1;
+    }
+  }
+
+  &__detail {
+    @include position-absolute;
+    background-color: var(--purple-3);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-image: url(../images/thumb/service-hover.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+
+    &-3 {
+      overflow: hidden;
+
+      img {
+        border-radius: 15px;
+      }
+    }
+  }
+
+  &__info {
+    text-align: center;
+  }
+
+  &__title {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 35px 0 16px;
+    @include hover-title;
+
+    &::after {
+      background-color: var(--black);
+    }
+
+    a {
+      color: var(--black-darker);
+    }
+
+    &-2 {
+      @extend .team__title;
+
+      &::after {
+        background-color: var(--white);
+      }
+
+      a {
+        color: var(--white);
+      }
+    }
+  }
+
+  &__designation {
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gray-2);
+
+    &-2 {
+      @extend .team__designation;
+      color: var(--white);
+    }
+  }
+
+  &__pagination {
+    padding-top: 80px;
+  }
+
+
+  &-details {
+
+    &__img {
+      mix-blend-mode: luminosity;
+      border-radius: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__bio {
+      padding-left: 50px;
+      padding-top: 45px;
+
+      @media #{$lg} {
+        padding-left: 0;
+        padding-top: 20px;
+      }
+
+      @media #{$md} {
+        padding: 0;
+      }
+
+      @media #{$sm} {
+        padding-left: 0;
+        padding-top: 20px;
+      }
+
+      .team-details__sub-title {
+        padding-bottom: 15px;
+
+        @media #{$md} {
+          padding-bottom: 10px;
+        }
+      }
+
+      p {
+        font-size: 15px;
+        color: var(--gray-12);
+        padding-right: 20%;
+        margin-bottom: 55px;
+
+        @media #{$lg} {
+          padding-right: 0;
+          margin-bottom: 40px;
+        }
+
+        @media #{$md} {
+          padding-right: 0;
+          margin-bottom: 20px;
+        }
+
+        @media #{$sm} {
+          margin-bottom: 30px;
+          padding-right: 0;
+        }
+      }
+
+      li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--gray-12);
+        padding-bottom: 25px;
+
+        @media #{$lg} {
+          padding-bottom: 15px;
+        }
+
+        @media #{$md} {
+          padding-bottom: 10px;
+          font-size: 16px;
+        }
+
+        @media #{$sm} {
+          padding-bottom: 10px;
+        }
+
+        strong {
+          color: var(--black-darker);
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__social {
+      text-align: right;
+      padding-top: 50px;
+
+      @media #{$md} {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+      }
+
+      @media #{$sm} {
+        text-align: left;
+        padding-top: 30px;
+      }
+
+      li {
+        display: inline-block;
+        margin-left: 10px;
+
+        @media #{$lg} {
+          margin-left: 7px;
+        }
+
+        @media #{$md} {
+          margin-bottom: 10px;
+        }
+
+        a {
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--white);
+          border-radius: 3px;
+          transition: all 0.3s ease;
+
+          &:hover {
+            opacity: 0.8;
+          }
+
+          &.facebook {
+            background-color: var(--facebook);
+          }
+
+          &.twitter {
+            background-color: var(--twitter);
+          }
+
+          &.instagram {
+            background-color: var(--blue);
+          }
+
+          &.pinterest {
+            background-color: var(--red);
+          }
+        }
+      }
+    }
+
+    &__content {
+      padding: 100px 0 70px;
+
+      @media #{$sm} {
+        padding: 60px 0 40px;
+      }
+
+      .team-details__title {
+        padding-bottom: 30px;
+
+        @media #{$sm} {
+          padding-bottom: 20px;
+        }
+      }
+
+      p {
+        font-family: var(--font-archivo);
+        line-height: 28px;
+        padding-bottom: 30px;
+
+        @media #{$sm} {
+          padding-bottom: 20px;
+        }
+      }
+    }
+
+    &__title {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--black-dark);
+    }
+
+    &__sub-title {
+      @extend .team-details__title;
+      font-size: 24px;
+
+      @media #{$md} {
+        font-size: 18px;
+      }
+    }
+
+    &__designation {
+      font-family: var(--body-font);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.3;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--gray-2);
+      margin-bottom: 40px;
+
+      @media #{$md} {
+        margin-bottom: 15px;
+      }
+
+      @media #{$sm} {
+        margin-bottom: 25px;
+      }
+    }
+
+    &__feature {
+      @media #{$sm} {
+        padding-bottom: 50px;
+      }
+
+      .team-details__sub-title {
+        padding-bottom: 30px;
+
+        @media #{$sm} {
+          padding-bottom: 20px;
+        }
+      }
+
+      p {
+        font-family: var(--font-archivo);
+        color: var(--gray-4);
+        line-height: 26px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+
+        @media #{$lg} {
+          padding-right: 0;
+        }
+
+        @media #{$md} {
+          padding-right: 0;
+        }
+
+        @media #{$sm} {
+          padding-right: 0;
+          padding-bottom: 20px;
+        }
+      }
+
+      li {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: var(--black-5);
+        padding-left: 40px;
+        margin-bottom: 10px;
+        position: relative;
+
+        @media #{$md} {
+          padding-left: 25px;
+          font-size: 14px;
+        }
+
+        &::before {
+          @include position-absolute;
+          background: url(../images/icon/check-blue.png);
+          background-repeat: no-repeat;
+          background-position: 0 7px;
+        }
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,118 @@
+/*----------------------------------------*/
+/*  03. SPACING CSS START
+/*----------------------------------------*/
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-130 {
+  margin-bottom: 130px;
+
+  @media #{$md} {
+    margin-bottom: 80px;
+  }
+
+  @media #{$sm} {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
+
+.pb-100 {
+  padding-bottom: 100px;
+
+  @media #{$md} {
+    padding-bottom: 50px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 40px;
+  }
+}
+
+.pb-110 {
+  padding-bottom: 110px;
+
+  @media #{$md} {
+    padding-bottom: 50px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 20px;
+  }
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+
+  @media #{$md} {
+    padding-bottom: 60px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 30px;
+  }
+}
+
+.pb-130 {
+  padding-bottom: 130px;
+
+  @media #{$md} {
+    padding-bottom: 80px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 40px;
+  }
+}
+
+
+
+.pt-130 {
+  padding-top: 130px;
+
+  @media #{$md} {
+    padding-top: 80px;
+  }
+
+  @media #{$sm} {
+    padding-top: 40px;
+  }
+}
+
+.pt-120 {
+  padding-top: 120px;
+
+  @media #{$md} {
+    padding-top: 80px;
+  }
+
+  @media #{$sm} {
+    padding-top: 50px;
+  }
+}
+
+
+.pr-130 {
+  padding-right: 130px;
+
+  @media #{$md} {
+    padding-right: 80px;
+  }
+
+  @media #{$sm} {
+    padding-right: 0px;
+  }
+}

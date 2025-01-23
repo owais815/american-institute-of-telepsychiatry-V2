@@ -1,0 +1,97 @@
+$flaticon_telepsychiatry-font: "flaticon_telepsychiatry";
+
+@font-face {
+    font-family: $flaticon_telepsychiatry-font;
+    src: url("./flaticon_telepsychiatry.ttf?6818e44312e23e2fc135de0567960664") format("truetype"),
+url("./flaticon_telepsychiatry.woff?6818e44312e23e2fc135de0567960664") format("woff"),
+url("./flaticon_telepsychiatry.woff2?6818e44312e23e2fc135de0567960664") format("woff2"),
+url("./flaticon_telepsychiatry.eot?6818e44312e23e2fc135de0567960664#iefix") format("embedded-opentype"),
+url("./flaticon_telepsychiatry.svg?6818e44312e23e2fc135de0567960664#flaticon_telepsychiatry") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_telepsychiatry !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_telepsychiatry-map: (
+    "001-customer-service": "\f101",
+    "002-team": "\f102",
+    "003-reliability": "\f103",
+    "004-checklist": "\f104",
+    "005-pills": "\f105",
+    "006-communication": "\f106",
+    "007-search": "\f107",
+    "008-dna": "\f108",
+    "009-playtime": "\f109",
+    "010-consulting": "\f10a",
+    "011-nursing": "\f10b",
+    "012-dyslexia": "\f10c",
+    "013-brain": "\f10d",
+    "014-guard": "\f10e",
+    "015-segmentation": "\f10f",
+    "016-addiction": "\f110",
+    "017-chemistry": "\f111",
+    "018-physics": "\f112",
+);
+
+.flaticon-001-customer-service:before {
+    content: map-get($flaticon_telepsychiatry-map, "001-customer-service");
+}
+.flaticon-002-team:before {
+    content: map-get($flaticon_telepsychiatry-map, "002-team");
+}
+.flaticon-003-reliability:before {
+    content: map-get($flaticon_telepsychiatry-map, "003-reliability");
+}
+.flaticon-004-checklist:before {
+    content: map-get($flaticon_telepsychiatry-map, "004-checklist");
+}
+.flaticon-005-pills:before {
+    content: map-get($flaticon_telepsychiatry-map, "005-pills");
+}
+.flaticon-006-communication:before {
+    content: map-get($flaticon_telepsychiatry-map, "006-communication");
+}
+.flaticon-007-search:before {
+    content: map-get($flaticon_telepsychiatry-map, "007-search");
+}
+.flaticon-008-dna:before {
+    content: map-get($flaticon_telepsychiatry-map, "008-dna");
+}
+.flaticon-009-playtime:before {
+    content: map-get($flaticon_telepsychiatry-map, "009-playtime");
+}
+.flaticon-010-consulting:before {
+    content: map-get($flaticon_telepsychiatry-map, "010-consulting");
+}
+.flaticon-011-nursing:before {
+    content: map-get($flaticon_telepsychiatry-map, "011-nursing");
+}
+.flaticon-012-dyslexia:before {
+    content: map-get($flaticon_telepsychiatry-map, "012-dyslexia");
+}
+.flaticon-013-brain:before {
+    content: map-get($flaticon_telepsychiatry-map, "013-brain");
+}
+.flaticon-014-guard:before {
+    content: map-get($flaticon_telepsychiatry-map, "014-guard");
+}
+.flaticon-015-segmentation:before {
+    content: map-get($flaticon_telepsychiatry-map, "015-segmentation");
+}
+.flaticon-016-addiction:before {
+    content: map-get($flaticon_telepsychiatry-map, "016-addiction");
+}
+.flaticon-017-chemistry:before {
+    content: map-get($flaticon_telepsychiatry-map, "017-chemistry");
+}
+.flaticon-018-physics:before {
+    content: map-get($flaticon_telepsychiatry-map, "018-physics");
+}

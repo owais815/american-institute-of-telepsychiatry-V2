@@ -1,0 +1,125 @@
+/*----------------------------------------*/
+/*  25. PRICE CSS START
+/*----------------------------------------*/
+
+.price {
+  &__area {
+    background-image: url(../images/bg/gray-shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__title-wrapper {
+    padding-bottom: 70px;
+
+    @media #{$sm} {
+      padding-bottom: 40px;
+    }
+  }
+
+  &__item {
+    background-color: var(--white);
+    padding: 55px 45px 54px 47px;
+    border-radius: 15px;
+    transition: all 0.5s;
+
+    @media #{$lg} {
+      padding: 50px 30px;
+      margin-bottom: 30px;
+    }
+
+    @media #{$md} {
+      padding: 50px 30px;
+      margin-bottom: 30px;
+    }
+
+    @media #{$sm} {
+      padding: 50px 30px;
+      margin-bottom: 30px;
+    }
+
+    &-number {
+      font-size: 45px;
+      font-weight: 400;
+      font-family: var(--heading-font);
+      color: var(--black-dark);
+      padding-bottom: 30px;
+      display: inline-block;
+    }
+
+    p {
+      padding-bottom: 30px;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--secondary);
+      font-family: var(--font-archivo);
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      box-shadow: 0px 8px 28px rgba(238, 241, 248, 0.77);
+    }
+
+    &-package {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+
+      i {
+        font-size: 16px;
+        color: var(--secondary);
+      }
+    }
+
+    &-list {
+      padding-bottom: 30px;
+
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1em;
+        margin-bottom: 22px;
+        position: relative;
+        padding-left: 20px;
+
+        @media #{$lg} {
+          font-size: 16px;
+        }
+
+        @media #{$sm} {
+          font-size: 16px;
+        }
+
+        &::before {
+          position: absolute;
+          top: 2px;
+          left: 0;
+          content: "";
+          width: 12px;
+          height: 12px;
+          border: 2px solid var(--secondary);
+          border-radius: 50%;
+        }
+      }
+
+      &-2 {
+        @extend .price__item-list;
+
+        li {
+          &::before {
+            background-color: var(--secondary);
+          }
+        }
+      }
+    }
+  }
+}
+
+.disable {
+  opacity: 0.3;
+}

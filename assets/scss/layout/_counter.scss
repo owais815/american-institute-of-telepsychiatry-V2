@@ -1,0 +1,117 @@
+/*----------------------------------------*/
+/*  19. COUNTER CSS START
+/*----------------------------------------*/
+
+
+
+.counter {
+  &__area {
+    background-image: url(../images/bg/counter-bg.png);
+    background-color: var(--purple-3);
+    padding: 100px 0;
+
+    @media #{$md} {
+      padding: 60px 0;
+    }
+
+    @media #{$sm} {
+      padding: 50px 0;
+    }
+  }
+
+  &__item {
+    position: relative;
+    padding: 50px 60px;
+
+    @media #{$xl} {
+      padding: 30px;
+    }
+
+    @media #{$lg} {
+      padding: 20px;
+    }
+
+    @media #{$md} {
+      padding: 30px 0;
+    }
+
+    @media #{$sm} {
+      padding: 30px;
+      text-align: center;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 285px;
+      background: rgb(236 238 243 / 0.2);
+      top: 0;
+      right: 0;
+
+      @media #{$xl} {
+        height: 250px;
+      }
+
+      @media #{$lg} {
+        height: 235px;
+      }
+
+      @media #{$md} {
+        height: 180px;
+        top: 20px;
+      }
+
+      @media #{$sm} {
+        position: unset;
+      }
+    }
+
+    &.last {
+      &::after {
+        position: inherit;
+      }
+    }
+
+    img {
+      margin-bottom: 20px;
+
+      @media #{$md} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$sm} {
+        margin-bottom: 5px;
+      }
+    }
+
+    p {
+      font-family: var(--font-archivo);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.938rem;
+      line-height: 1.5;
+      text-transform: capitalize;
+      color: var(--white);
+    }
+  }
+
+  &__number {
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--white);
+    margin-bottom: 20px;
+
+    @media #{$md} {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    @media #{$sm} {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,214 @@
+/*----------------------------------------*/
+/*  06. ANIMATION CSS START
+/*----------------------------------------*/
+
+
+@keyframes leftshape {
+  0% {
+    left: -50px
+  }
+
+  50% {
+    left: 0
+  }
+
+  100% {
+    left: -50px
+  }
+}
+
+@keyframes bottomshape {
+  0% {
+    bottom: -50px
+  }
+
+  50% {
+    bottom: 0
+  }
+
+  100% {
+    bottom: -50px
+  }
+}
+
+
+@keyframes rightshape {
+  0% {
+    right: -50px
+  }
+
+  50% {
+    right: 0
+  }
+
+  100% {
+    right: -50px
+  }
+}
+
+
+@keyframes leftcornershape {
+  0% {
+    transform: translate(-30%, 30%);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-30%, 30%);
+  }
+}
+
+@keyframes heroshape {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: -100px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes subs-right {
+  0% {
+    bottom: -120px;
+    right: -60%
+  }
+
+  50% {
+    bottom: -110px;
+    right: -70%
+  }
+
+  100% {
+    bottom: -120px;
+    right: -60%
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    width: 120px;
+    height: 120px;
+    left: 0;
+    top: 0;
+  }
+
+  50% {
+    width: 180px;
+    height: 180px;
+    left: -30px;
+    top: -30px;
+  }
+
+  100% {
+    width: 120px;
+    height: 120px;
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes preloader {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+
+@keyframes fade_left {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes fade_right {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes fade_bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes ripple-1 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple-2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}

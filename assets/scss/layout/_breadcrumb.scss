@@ -1,0 +1,97 @@
+/*----------------------------------------*/
+/*  23. BREADCRUMB CSS START
+/*----------------------------------------*/
+
+
+
+.breadcrumb {
+  &__area {
+    background-image: url(../images/bg/counter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--purple-3);
+    padding: 325px 0 170px;
+
+    @media #{$sm} {
+      padding: 260px 0 120px;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--white);
+    opacity: 0;
+    animation: fade_left 1s 0.5s forwards;
+
+    @media #{$sm} {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    @media #{$md} {
+      font-size: 48px;
+    }
+  }
+
+  &__path {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media #{$sm} {
+      justify-content: center;
+    }
+
+    p {
+      font-family: var(--body-font);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--white);
+      opacity: 0;
+      animation: fade_right 1s 1s forwards;
+
+      @media #{$sm} {
+        font-size: 16px;
+      }
+
+      @media #{$md} {
+        font-size: 18px;
+      }
+
+      a {
+        position: relative;
+        transition: all 0.3s ease;
+
+        &::after {
+          position: absolute;
+          content: "";
+          width: 0%;
+          height: 1px;
+          bottom: 0;
+          left: 0;
+          background-color: var(--white);
+          transition: all 0.3s ease;
+        }
+
+        &:hover {
+          color: var(--secondary);
+
+          &::after {
+            width: 100%;
+            background-color: var(--secondary);
+          }
+        }
+      }
+    }
+  }
+}

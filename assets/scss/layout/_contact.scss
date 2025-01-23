@@ -1,0 +1,210 @@
+/*----------------------------------------*/
+/*  22. CONTACT CSS START
+/*----------------------------------------*/
+
+
+.contact {
+  &__area {
+    background-image: linear-gradient(var(--black), var(--black)), url(../images/bg/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: saturation;
+    padding-top: 180px;
+    @include section-shadow;
+
+    &-2 {
+      padding-bottom: 130px;
+
+      @media #{$md} {
+        padding-bottom: 100px;
+      }
+
+      @media #{$sm} {
+        padding-bottom: 80px;
+      }
+    }
+  }
+
+  &__content {
+    max-width: 50%;
+    margin-left: auto;
+    background-image: url(../images/thumb/service-hover.png);
+    background-color: var(--purple-3);
+    padding: 70px 60px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    z-index: 9;
+
+    @media #{$md} {
+      max-width: 80%;
+    }
+
+    @media #{$sm} {
+      max-width: 100%;
+      padding: 40px 20px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-bottom: 35px;
+
+    &-2 {
+      @extend .contact__title;
+      color: var(--black);
+      padding-bottom: 48px;
+    }
+  }
+
+  &__form {
+
+    input,
+    textarea {
+      width: 100%;
+      height: 60px;
+      padding: 0 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 60px;
+      color: var(--pink-2);
+      margin-bottom: 25px;
+      background: var(--purple-4);
+      border: 1px solid var(--purple-5);
+      border-radius: 5px;
+
+      &::placeholder {
+        color: var(--pink-2);
+      }
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    textarea {
+      height: 215px;
+      resize: none;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__form-2 {
+
+    input,
+    textarea {
+      width: 100%;
+      height: 60px;
+      padding: 0 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 60px;
+      color: var(--black-4);
+      margin-bottom: 25px;
+      background: var(--pink-3);
+      border: 1px solid var(--pink-4);
+      border-radius: 1px;
+
+      &::placeholder {
+        color: var(--black-4);
+      }
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    textarea {
+      height: 270px;
+      resize: none;
+      margin-bottom: 20px;
+
+      @media #{$sm} {
+        height: 180px;
+      }
+    }
+  }
+
+  &__type {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid var(--white-7);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 15px;
+
+    @media #{$lg} {
+      padding: 50px 30px;
+      margin-bottom: 20px;
+    }
+
+    @media #{$md} {
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    @media #{$sm} {
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    &.phone {
+      background-color: var(--primary);
+    }
+
+    &.address {
+      background-color: var(--secondary);
+    }
+
+    &.schedule {
+      background-color: var(--purple);
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      color: var(--white);
+    }
+  }
+
+  &__type-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 15px;
+  }
+
+
+
+
+}
+
+
+// Map
+.map {
+  &__area {
+    img {
+      max-width: 100%;
+      width: 100%;
+      filter: grayscale(1);
+    }
+  }
+}
+
+
+
+.fz-24 {
+  font-size: 24px;
+}
