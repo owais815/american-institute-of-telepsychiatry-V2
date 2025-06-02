@@ -3919,16 +3919,16 @@
 .fa-list-ul:before {
   content: "\f0ca";
 }
-.fa-envelope:before {
+.fa-location:before {
   content: "\f601";
 }
-.fa-envelope-arrow:before {
+.fa-location-arrow:before {
   content: "\f124";
 }
-.fa-envelope-circle:before {
+.fa-location-circle:before {
   content: "\f602";
 }
-.fa-envelope-slash:before {
+.fa-location-slash:before {
   content: "\f603";
 }
 .fa-lock:before {
@@ -4027,40 +4027,40 @@
 .fa-map-marked-alt:before {
   content: "\f5a0";
 }
-.fa-envelope:before {
+.fa-map-marker:before {
   content: "\f041";
 }
-.fa-envelope-alt:before {
+.fa-map-marker-alt:before {
   content: "\f3c5";
 }
-.fa-envelope-alt-slash:before {
+.fa-map-marker-alt-slash:before {
   content: "\f605";
 }
-.fa-envelope-check:before {
+.fa-map-marker-check:before {
   content: "\f606";
 }
-.fa-envelope-edit:before {
+.fa-map-marker-edit:before {
   content: "\f607";
 }
-.fa-envelope-exclamation:before {
+.fa-map-marker-exclamation:before {
   content: "\f608";
 }
-.fa-envelope-minus:before {
+.fa-map-marker-minus:before {
   content: "\f609";
 }
-.fa-envelope-plus:before {
+.fa-map-marker-plus:before {
   content: "\f60a";
 }
-.fa-envelope-question:before {
+.fa-map-marker-question:before {
   content: "\f60b";
 }
-.fa-envelope-slash:before {
+.fa-map-marker-slash:before {
   content: "\f60c";
 }
-.fa-envelope-smile:before {
+.fa-map-marker-smile:before {
   content: "\f60d";
 }
-.fa-envelope-times:before {
+.fa-map-marker-times:before {
   content: "\f60e";
 }
 .fa-map-pin:before {
@@ -10200,16 +10200,16 @@
 .fad.fa-list-ul:after {
   content: "\10f0ca";
 }
-.fad.fa-envelope:after {
+.fad.fa-location:after {
   content: "\10f601";
 }
-.fad.fa-envelope-arrow:after {
+.fad.fa-location-arrow:after {
   content: "\10f124";
 }
-.fad.fa-envelope-circle:after {
+.fad.fa-location-circle:after {
   content: "\10f602";
 }
-.fad.fa-envelope-slash:after {
+.fad.fa-location-slash:after {
   content: "\10f603";
 }
 .fad.fa-lock:after {
@@ -10296,40 +10296,40 @@
 .fad.fa-map-marked-alt:after {
   content: "\10f5a0";
 }
-.fad.fa-envelope:after {
+.fad.fa-map-marker:after {
   content: "\10f041";
 }
-.fad.fa-envelope-alt:after {
+.fad.fa-map-marker-alt:after {
   content: "\10f3c5";
 }
-.fad.fa-envelope-alt-slash:after {
+.fad.fa-map-marker-alt-slash:after {
   content: "\10f605";
 }
-.fad.fa-envelope-check:after {
+.fad.fa-map-marker-check:after {
   content: "\10f606";
 }
-.fad.fa-envelope-edit:after {
+.fad.fa-map-marker-edit:after {
   content: "\10f607";
 }
-.fad.fa-envelope-exclamation:after {
+.fad.fa-map-marker-exclamation:after {
   content: "\10f608";
 }
-.fad.fa-envelope-minus:after {
+.fad.fa-map-marker-minus:after {
   content: "\10f609";
 }
-.fad.fa-envelope-plus:after {
+.fad.fa-map-marker-plus:after {
   content: "\10f60a";
 }
-.fad.fa-envelope-question:after {
+.fad.fa-map-marker-question:after {
   content: "\10f60b";
 }
-.fad.fa-envelope-slash:after {
+.fad.fa-map-marker-slash:after {
   content: "\10f60c";
 }
-.fad.fa-envelope-smile:after {
+.fad.fa-map-marker-smile:after {
   content: "\10f60d";
 }
-.fad.fa-envelope-times:after {
+.fad.fa-map-marker-times:after {
   content: "\10f60e";
 }
 .fad.fa-map-pin:after {
