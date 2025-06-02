@@ -1,702 +1,529 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <meta name="description" content="Hovarax HTML5 Template" />
 
-  <meta charset="UTF-8">
+    <title>Portfolios - Hovarax</title>
+    <!-- <link rel="icon" type="image/favicon" href="assets/images/icon/favicon.png"> -->
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <meta name="description" content="Hovarax HTML5 Template" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Portfolios - Hovarax</title>
-  <!-- <link rel="icon" type="image/favicon" href="assets/images/icon/favicon.png"> -->
+    <!-- All CSS files -->
 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/css/all.min.css" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
 
+    <link rel="stylesheet" href="assets/css/master.css" />
 
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- All CSS files -->
+  <body>
+    <!-- Preloader Start -->
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <div id="preloader">
+      <div class="loading">
+        <div></div>
 
-  <link rel="stylesheet" href="assets/css/all.min.css">
-
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-  <link rel="stylesheet" href="assets/css/animate.min.css">
-
-  <link rel="stylesheet" href="assets/css/master.css">
-
-  <link rel="stylesheet" href="style.css">
-
-</head>
-
-
-
-<body>
-
-  <!-- Preloader Start -->
-
-  <div id="preloader">
-
-    <div class="loading">
-
-      <div></div>
-
-      <div></div>
-
+        <div></div>
+      </div>
     </div>
 
-  </div>
+    <!-- Preloader end -->
 
-  <!-- Preloader end -->
+    <!-- Main wrapper start -->
 
+    <div class="wrapper">
+      <!-- Header start -->
 
+      <header class="header__area pos-top" id="sticky_header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="header__content d-flex">
+                  <a class="navbar-brand header__logo" href="index.html"
+                    ><img src="assets/images/icon/logo-primary.png" alt="Logo Primary"
+                  /></a>
 
+                  <div class="mobile-icon">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarScroll"
+                      aria-controls="navbarScroll"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </div>
 
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll header__menu">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarScrollingDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          >home+</a
+                        >
 
-  <!-- Main wrapper start -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="index.html">home 1</a></li>
 
-  <div class="wrapper">
+                          <li><a class="dropdown-item" href="index-2.html">home 2</a></li>
 
-    <!-- Header start -->
+                          <li><a class="dropdown-item" href="index-3.html">home 3</a></li>
+                        </ul>
+                      </li>
 
-    <header class="header__area pos-top" id="sticky_header">
+                      <li class="nav-item"><a class="nav-link" href="about-us.html">about</a></li>
 
-      <div class="container-fluid">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarScrollingDropdown4  "
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          >Pages+</a
+                        >
 
-        <div class="row">
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown4">
+                          <li><a class="dropdown-item" href="about-us.html">about us</a></li>
 
-          <div class="col">
+                          <li><a class="dropdown-item" href="service.html">services</a></li>
 
-            <nav class="navbar navbar-expand-lg navbar-light">
+                          <li><a class="dropdown-item" href="service-details.html">service details</a></li>
 
-              <div class="header__content d-flex">
+                          <li><a class="dropdown-item active" href="portfolio.html">portfolios</a></li>
 
-                <a class="navbar-brand header__logo" href="index.html"><img src="assets/images/icon/logo-primary.png"
-                    alt="Logo Primary"></a>
+                          <li><a class="dropdown-item" href="portfolio-details.html">Portfolio details</a></li>
 
-                <div class="mobile-icon">
+                          <li><a class="dropdown-item" href="team.html">team</a></li>
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"><span
-                      class="navbar-toggler-icon"></span></button>
+                          <li><a class="dropdown-item" href="team-details.html">team details</a></li>
 
+                          <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+
+                          <li><a class="dropdown-item" href="blog-details.html">blog details</a></li>
+
+                          <li><a class="dropdown-item" href="category.html">category</a></li>
+
+                          <li><a class="dropdown-item" href="career.html">career</a></li>
+
+                          <li><a class="dropdown-item" href="job-list.html">jobs</a></li>
+
+                          <li><a class="dropdown-item" href="job-details.html">job details</a></li>
+
+                          <li><a class="dropdown-item" href="faq.html">faqs</a></li>
+
+                          <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarScrollingDropdown2"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          >service+</a
+                        >
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
+                          <li><a class="dropdown-item" href="service.html">services</a></li>
+
+                          <li><a class="dropdown-item" href="service-details.html">service details</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle active"
+                          href="#"
+                          id="navbarScrollingDropdown3"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          >project+</a
+                        >
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown3">
+                          <li><a class="dropdown-item active" href="portfolio.html">Portfolio</a></li>
+
+                          <li><a class="dropdown-item" href="portfolio-details.html">Portfolio details</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+                    </ul>
+
+                    <div class="header__search">
+                      <button type="button" class="header__search-icon" id="open_search">
+                        <i class="fal fa-search"></i>
+                      </button>
+
+                      <button class="btn-close header__search-close" id="close_search"></button>
+
+                      <div class="header__search-box">
+                        <form action="#">
+                          <div class="header__search-form">
+                            <input type="text" placeholder="search..." />
+
+                            <button type="submit" class="header__submit"><i class="fal fa-search"></i></button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                    <div class="header__bar-icon">
+                      <button
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"
+                      >
+                        <i class="fal fa-bars"></i>
+                      </button>
+                    </div>
+
+                    <div class="header__phone">
+                      <a href="tel:+19159969739"><i class="fa fa-paper-plane" aria-hidden="true"></i> +19159969739</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header end -->
+
+      <!-- Offcanvas area start -->
+
+      <div class="offcanvas offcanvas-end offcanvas__area" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas__content">
+          <div class="offcanvas__close">
+            <button data-bs-dismiss="offcanvas" aria-label="Close"><i class="fal fa-times"></i></button>
+          </div>
+
+          <div class="offcanvas__logo">
+            <img src="assets/images/icon/logo-secondary.png" alt="Logo" />
+          </div>
+
+          <div class="offcanvas__title-wrapper">
+            <h2 class="offcanvas__title">Unique Digital Ideas for Successful Business</h2>
+
+            <p class="offcanvas__sub-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur!
+            </p>
+          </div>
+
+          <div class="offcanvas__subscribe">
+            <h3 class="offcanvas__title">subscribe</h3>
+
+            <form action="#">
+              <input type="email" name="subscribe" placeholder="Enter your mail" />
+            </form>
+          </div>
+
+          <div class="offcanvas__contact">
+            <h3 class="offcanvas__title">contact</h3>
+
+            <ul>
+              <li>
+                <span><i class="fas fa-envelope-alt"></i></span> Bowery St, New York, NY 10013,USA
+              </li>
+
+              <li>
+                <a href="tel:+1255-568-6523"
+                  ><span><i class="fas fa-phone-alt"></i></span> +1255 - 568 - 6523</a
+                >
+              </li>
+
+              <li>
+                <a href="mailto:webinfo@gmail.com"
+                  ><span><i class="fas fa-envelope"></i></span>
+
+                  webinfo@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="offcanvas__social">
+            <ul class="offcanvas__social-list">
+              <li>
+                <a href="#" class="btn-hover"><span></span> <i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#" class="btn-hover"><span></span> <i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#" class="btn-hover"><span></span> <i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#" class="btn-hover"><span></span> <i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offcanvas area end -->
+
+      <!-- Main content area start -->
+
+      <div class="main-content-area">
+        <!-- Breadcrumb area start -->
+
+        <section class="breadcrumb__area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="breadcrumb__title-wrapper wow animate__animated animate__fadeIn">
+                  <h1 class="breadcrumb__title">portfolio</h1>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="breadcrumb__path wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                  <p><a href="index.html">Home</a> : portfolio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Breadcrumb area end -->
+
+        <!-- Portfolio area start -->
+
+        <section class="portfolio__area pt-130 pb-130">
+          <div class="container">
+            <div class="portfolio__top-wrapper">
+              <div class="row">
+                <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                  <h2 class="section-title wow animate__animated animate__fadeIn">All Project</h2>
                 </div>
 
+                <div class="col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+                  <div class="portfolio__btns wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <button type="button" data-filter="all" class="btn-hover"><span></span> All</button>
 
+                    <button type="button" data-filter=".web-design" class="btn-hover"><span></span> Web Design</button>
 
-                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <button type="button" data-filter=".app-design" class="btn-hover"><span></span> App Design</button>
 
-                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll header__menu">
+                    <button type="button" data-filter=".branding" class="btn-hover"><span></span> Branding</button>
 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
-                        id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">home+</a>
+                    <button type="button" data-filter=".ux-design" class="btn-hover"><span></span> UX Design</button>
 
-                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <button type="button" data-filter=".landing-page" class="btn-hover">
+                      <span></span> Landing Page
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                        <li><a class="dropdown-item" href="index.html">home 1</a></li>
+          <div class="container">
+            <div class="portfolio__list portfolio__list-main">
+              <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix web-design">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-1.jpg" alt="" class="portfolio__img" />
 
-                        <li><a class="dropdown-item" href="index-2.html">home 2</a></li>
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Minimal Product Branding</h2>
 
-                        <li><a class="dropdown-item" href="index-3.html">home 3</a></li>
-
-                      </ul>
-
-                    </li>
-
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">about</a></li>
-
-
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
-                        id="navbarScrollingDropdown4  " role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">Pages+</a>
-
-                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown4">
-                        <li><a class="dropdown-item" href="about-us.html">about us</a></li>
-
-                        <li><a class="dropdown-item" href="service.html">services</a></li>
-
-                        <li><a class="dropdown-item" href="service-details.html">service details</a></li>
-
-                        <li><a class="dropdown-item active" href="portfolio.html">portfolios</a></li>
-
-                        <li><a class="dropdown-item" href="portfolio-details.html">Portfolio details</a></li>
-
-                        <li><a class="dropdown-item" href="team.html">team</a></li>
-
-                        <li><a class="dropdown-item" href="team-details.html">team details</a></li>
-
-                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-
-                        <li><a class="dropdown-item" href="blog-details.html">blog details</a></li>
-
-                        <li><a class="dropdown-item" href="category.html">category</a></li>
-
-                        <li><a class="dropdown-item" href="career.html">career</a></li>
-
-                        <li><a class="dropdown-item" href="job-list.html">jobs</a></li>
-
-                        <li><a class="dropdown-item" href="job-details.html">job details</a></li>
-
-                        <li><a class="dropdown-item" href="faq.html">faqs</a></li>
-
-
-                        <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
-
-                      </ul>
-
-                    </li>
-
-
-
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
-                        id="navbarScrollingDropdown2" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">service+</a>
-
-                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown2">
-
-                        <li><a class="dropdown-item" href="service.html">services</a></li>
-
-                        <li><a class="dropdown-item" href="service-details.html">service details</a></li>
-
-                      </ul>
-
-                    </li>
-
-
-
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="#"
-                        id="navbarScrollingDropdown3" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">project+</a>
-
-                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown3">
-
-                        <li><a class="dropdown-item active" href="portfolio.html">Portfolio</a></li>
-
-                        <li><a class="dropdown-item" href="portfolio-details.html">Portfolio details</a></li>
-
-                      </ul>
-
-                    </li>
-
-
-                    <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
-
-                  </ul>
-
-
-
-                  <div class="header__search">
-
-                    <button type="button" class="header__search-icon" id="open_search"><i
-                        class="fal fa-search"></i></button>
-
-                    <button class="btn-close header__search-close" id="close_search"></button>
-
-
-
-                    <div class="header__search-box">
-
-                      <form action="#">
-
-                        <div class="header__search-form">
-
-                          <input type="text" placeholder="search...">
-
-                          <button type="submit" class="header__submit"><i class="fal fa-search"></i></button>
-
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
                         </div>
 
-                      </form>
-
-                    </div>
-
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-
-
-
-                  <div class="header__bar-icon">
-
-                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                      aria-controls="offcanvasRight"><i class="fal fa-bars"></i></button>
-
-                  </div>
-
-
-
-                  <div class="header__phone">
-
-                    <a href="tel:+19159969739"><i class="fa fa-paper-plane" aria-hidden="true"></i> +19159969739</a>
-
-                  </div>
-
                 </div>
 
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix app-design">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-2.jpg" alt="" class="portfolio__img" />
+
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Productive Worksesion</h2>
+
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
+                        </div>
+
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix ux-design">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-3.jpg" alt="" class="portfolio__img" />
+
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Product Photography Trend</h2>
+
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
+                        </div>
+
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix ux-design">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-4.jpg" alt="" class="portfolio__img" />
+
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Product Photography Trend</h2>
+
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
+                        </div>
+
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix branding">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-5.jpg" alt="" class="portfolio__img" />
+
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Product Photography Trend</h2>
+
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
+                        </div>
+
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix landing-page">
+                  <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+                    <a href="portfolio-details.html">
+                      <img src="assets/images/portfolio/3/portfolio-6.jpg" alt="" class="portfolio__img" />
+
+                      <div class="portfolio__item-inner">
+                        <div class="portfolio__content-3">
+                          <h2 class="portfolio__title-3">Product Photography Trend</h2>
+
+                          <h3 class="portfolio__category-3">Finance & Business</h3>
+                        </div>
+
+                        <div class="portfolio__link-3">
+                          <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
-
-            </nav>
-
+            </div>
           </div>
 
-        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xll-12">
+                <nav class="portfolio__pagination-2 wow animate__animated animate__fadeIn" data-wow-delay="0.9s">
+                  <ul class="pagination justify-content-center">
+                    <li>
+                      <a href="#" class="btn-hover"><span></span> <i class="far fa-long-arrow-left"></i></a>
+                    </li>
 
+                    <li>
+                      <a href="#" class="btn-hover"><span></span> 1</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="btn-hover active"><span></span> 2</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="btn-hover"><span></span> 3</a>
+                    </li>
+
+                    <li><a>...</a></li>
+
+                    <li>
+                      <a href="#" class="btn-hover"><span></span> <i class="far fa-long-arrow-right"></i></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio area end -->
       </div>
 
-    </header>
+      <!-- Main content area end -->
 
-    <!-- Header end -->
+      <!-- Footer start -->
 
-
-
-    <!-- Offcanvas area start -->
-
-    <div class="offcanvas offcanvas-end offcanvas__area" tabindex="-1" id="offcanvasRight">
-
-      <div class="offcanvas__content">
-
-        <div class="offcanvas__close">
-
-          <button data-bs-dismiss="offcanvas" aria-label="Close"><i class="fal fa-times"></i></button>
-
-        </div>
-
-        <div class="offcanvas__logo">
-
-          <img src="assets/images/icon/logo-secondary.png" alt="Logo">
-
-        </div>
-
-        <div class="offcanvas__title-wrapper">
-
-          <h2 class="offcanvas__title">Unique Digital Ideas for Successful Business</h2>
-
-          <p class="offcanvas__sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur!
-
-          </p>
-
-        </div>
-
-        <div class="offcanvas__subscribe">
-
-          <h3 class="offcanvas__title">subscribe</h3>
-
-          <form action="#">
-
-            <input type="email" name="subscribe" placeholder="Enter your mail">
-
-          </form>
-
-        </div>
-
-        <div class="offcanvas__contact">
-
-          <h3 class="offcanvas__title">contact</h3>
-
-          <ul>
-
-            <li><span><i class="fas fa-map-marker-alt"></i></span> Bowery St, New York, NY 10013,USA</li>
-
-            <li><a href="tel:+1255-568-6523"><span><i class="fas fa-phone-alt"></i></span> +1255 - 568 - 6523</a></li>
-
-            <li><a href="mailto:webinfo@gmail.com"><span><i class="fas fa-envelope"></i></span>
-
-                webinfo@gmail.com</a></li>
-
-          </ul>
-
-        </div>
-
-        <div class="offcanvas__social">
-
-          <ul class="offcanvas__social-list">
-
-            <li><a href="#" class="btn-hover"><span></span> <i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#" class="btn-hover"><span></span> <i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#" class="btn-hover"><span></span> <i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" class="btn-hover"><span></span> <i class="fab fa-youtube"></i></a></li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Offcanvas area end -->
-
-
-
-
-
-    <!-- Main content area start -->
-
-    <div class="main-content-area">
-
-
-
-      <!-- Breadcrumb area start -->
-
-      <section class="breadcrumb__area">
-
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-              <div class="breadcrumb__title-wrapper wow animate__animated animate__fadeIn">
-
-                <h1 class="breadcrumb__title">portfolio</h1>
-
-              </div>
-
-            </div>
-
-            <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-              <div class="breadcrumb__path wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-
-                <p><a href="index.html">Home</a> : portfolio</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <!-- Breadcrumb area end -->
-
-
-
-
-
-      <!-- Portfolio area start -->
-
-      <section class="portfolio__area pt-130 pb-130">
-
-        <div class="container">
-
-          <div class="portfolio__top-wrapper">
-
-            <div class="row">
-
-              <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-
-                <h2 class="section-title wow animate__animated animate__fadeIn">All Project</h2>
-
-              </div>
-
-              <div class="col-md-12 col-lg-8 col-xl-8 col-xxl-8">
-
-                <div class="portfolio__btns wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-
-                  <button type="button" data-filter="all" class="btn-hover"><span></span> All</button>
-
-                  <button type="button" data-filter=".web-design" class="btn-hover"><span></span> Web Design</button>
-
-                  <button type="button" data-filter=".app-design" class="btn-hover"><span></span> App Design</button>
-
-                  <button type="button" data-filter=".branding" class="btn-hover"><span></span> Branding</button>
-
-                  <button type="button" data-filter=".ux-design" class="btn-hover"><span></span> UX Design</button>
-
-                  <button type="button" data-filter=".landing-page" class="btn-hover"><span></span> Landing
-
-                    Page</button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-        <div class="container">
-
-          <div class="portfolio__list portfolio__list-main">
-
-            <div class="row">
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix web-design">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-1.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Minimal Product Branding</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix app-design">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-2.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Productive Worksesion</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix ux-design">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-3.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Product Photography Trend</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix ux-design">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-4.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Product Photography Trend</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix branding">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-5.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Product Photography Trend</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-              <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 mix landing-page">
-
-                <div class="portfolio__item-3 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
-
-                  <a href="portfolio-details.html">
-
-                    <img src="assets/images/portfolio/3/portfolio-6.jpg" alt="" class="portfolio__img">
-
-                    <div class="portfolio__item-inner">
-
-                      <div class="portfolio__content-3">
-
-                        <h2 class="portfolio__title-3">Product Photography Trend</h2>
-
-                        <h3 class="portfolio__category-3">Finance & Business</h3>
-
-                      </div>
-
-                      <div class="portfolio__link-3">
-
-                        <p class="portfolio__btn-3"><i class="far fa-long-arrow-right"></i></p>
-
-                      </div>
-
-                    </div>
-
-                  </a>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-xll-12">
-
-              <nav class="portfolio__pagination-2 wow animate__animated animate__fadeIn" data-wow-delay="0.9s">
-
-                <ul class="pagination justify-content-center">
-
-                  <li><a href="#" class="btn-hover"><span></span> <i class="far fa-long-arrow-left"></i></a></li>
-
-                  <li><a href="#" class="btn-hover"><span></span> 1</a></li>
-
-                  <li><a href="#" class="btn-hover active"><span></span> 2</a></li>
-
-                  <li><a href="#" class="btn-hover"><span></span> 3</a></li>
-
-                  <li><a>...</a></li>
-
-                  <li><a href="#" class="btn-hover"><span></span> <i class="far fa-long-arrow-right"></i></a></li>
-
-                </ul>
-
-              </nav>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <!-- Portfolio area end -->
-
-
-
-    </div>
-
-    <!-- Main content area end -->
-
-
-
-
-
-    <!-- Footer start -->
-
-    <footer class="footer__area-3">
-
-      <!-- <div class="container">
+      <footer class="footer__area-3">
+        <!-- <div class="container">
 
         <div class="footer__top-3">
 
@@ -735,59 +562,48 @@
 
       </div> -->
 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="footer__logo-3 d-flex align-items-start justify-content-start">
+                <a href="#">
+                  <img src="assets/images/home/logo-american.png" alt="Footer Logo" />
+                </a>
+              </div>
 
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-
-            <div class="footer__logo-3 d-flex align-items-start justify-content-start">
-
-              <a href="#">
-                <img src="assets/images/home/logo-american.png" alt="Footer Logo">
-              </a>
+              <h3 class="footer__widget-title-3 pt-0 pt-md-5 pb-5 pb-md-0">
+                AMERICAN INSTITUTE <br />
+                OF TELEPSYCHIATRY
+              </h3>
             </div>
 
-            <h3 class="footer__widget-title-3 pt-0 pt-md-5 pb-5 pb-md-0">AMERICAN INSTITUTE <br> OF TELEPSYCHIATRY</h3>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="footer__widget-3">
+                <h3 class="footer__widget-title-3">Quick Links</h3>
 
-
-          </div>
-
-          <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-
-            <div class="footer__widget-3">
-
-              <h3 class="footer__widget-title-3">Quick Links</h3>
-              
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="partners.html">Partners</a></li>
-                <li><a href="career.html">Careers</a></li>
-                <li><a href="clients.html">Clients</a></li>
-                <li><a href="insurance.html">Insurance</a></li>
-                <li><a href="faq-new.html">FAQ's</a></li>
-                <li><a href="blog-new.html">Blog</a></li>
-                <li><a href="contact-new.html">Contact</a></li>
-                <li><a href="our-providers.html">Our Providers</a></li>
-                <li><a href="policy-procedures.html">Privacy Policy</a></li>
-                <li><a href="billing-and-fees.html">Billing And Fees</a></li>
-              </ul>
-
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="partners.html">Partners</a></li>
+                  <li><a href="career.html">Careers</a></li>
+                  <li><a href="clients.html">Clients</a></li>
+                  <li><a href="insurance.html">Insurance</a></li>
+                  <li><a href="faq-new.html">FAQ's</a></li>
+                  <li><a href="blog-new.html">Blog</a></li>
+                  <li><a href="contact-new.html">Contact</a></li>
+                  <li><a href="our-providers.html">Our Providers</a></li>
+                  <li><a href="policy-procedures.html">Privacy Policy</a></li>
+                  <li><a href="billing-and-fees.html">Billing And Fees</a></li>
+                </ul>
+              </div>
             </div>
 
-          </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+              <div class="footer__widget-3">
+                <h3 class="footer__widget-title-3">Contact us</h3>
 
-          <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-
-            <div class="footer__widget-3">
-
-              <h3 class="footer__widget-title-3">Contact us</h3>
-
-              <!-- <ul>
+                <!-- <ul>
 
                 <li><a href="index.html">Home</a></li>
 
@@ -796,34 +612,29 @@
 
               </ul> -->
 
-              <div>
-                <ul class="d-flex flex-column gap-3">
-                  <li class="d-flex align-items-start gap-3 w-100">
-                    <i class="fa fa-phone relative pt-1"></i>
-                    <a href="tel:4074010070" class="p-0">
-                      Phone: +1718-838-9334
-                    </a>
-                  </li>
+                <div>
+                  <ul class="d-flex flex-column gap-3">
+                    <li class="d-flex align-items-start gap-3 w-100">
+                      <i class="fa fa-phone relative pt-1"></i>
+                      <a href="tel:4074010070" class="p-0"> Phone: +1718-838-9334 </a>
+                    </li>
 
-                  <li class="d-flex align-items-start gap-3 w-100">
-                    <i class="fa fa-location pt-1 relative"></i>
-                    <a href="#" target="_blank" class="p-0">
-                      1280 Lexington Avenue, <br>
+                    <li class="d-flex align-items-start gap-3 w-100">
+                      <i class="fa fa-envelope pt-1 relative"></i>
+                      <a href="#" target="_blank" class="p-0">
+                        <!-- 1280 Lexington Avenue, <br>
                       FRNT 2
-New York, NY 10028
-
-                    </a>
-                  </li>
-                </ul>
+New York, NY 10028 -->
+                        admin@aitelepsych.com
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-
             </div>
 
-          </div>
-
-          <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-
-            <!-- <div class="footer__widget-3">
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+              <!-- <div class="footer__widget-3">
 
               <h3 class="footer__widget-title-3">Services</h3>
 
@@ -863,90 +674,60 @@ New York, NY 10028
 
             </div> -->
 
-                        <div class="footer__subscribe-3">
+              <div class="footer__subscribe-3">
+                <h3 class="footer__widget-title-3">NEWSLETTER</h3>
 
-              <h3 class="footer__widget-title-3">NEWSLETTER</h3>
+                <p class="pb-3 text-white">Join our newsletter and receive our latest offers.</p>
 
-              <p class="pb-3 text-white">
-                Join our newsletter and receive our latest offers.
-              </p>
+                <form action="#" name="newsletter" method="POST" data-netlify="true">
+                  <input type="email" name="subscribe-mail" placeholder="Enter your mail" />
 
-              <form action="#" name="newsletter" method="POST" data-netlify="true">
-
-                <input type="email" name="subscribe-mail" placeholder="Enter your mail">
-
-                <button type="submit" name="submit" class="submit-btn">Subscribe <i
-                    class="fas fa-paper-plane"></i></button>
-
-              </form>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-        <div class="container">
-
-          <div class="footer__btm-3">
-
-            <div class="row">
-
-              <div class="col-xxl-12">
-
-                <div class="footer__copyright text-center">
-
-                  <p>© 2022 The American Institute Of Telepsychiatry. All Rights Reserved. Developed by: <a
-                      href="https://decimalsolution.com/" target="_blank">Decimal Solutions</a></p>
-
-                </div>
-
+                  <button type="submit" name="submit" class="submit-btn">
+                    Subscribe <i class="fas fa-paper-plane"></i>
+                  </button>
+                </form>
               </div>
-
             </div>
-
           </div>
-
         </div>
-      </div>
 
-    </footer>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="footer__btm-3">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="footer__copyright text-center">
+                    <p>
+                      © 2022 The American Institute Of Telepsychiatry. All Rights Reserved. Developed by:
+                      <a href="https://decimalsolution.com/" target="_blank">Decimal Solutions</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
-    <!-- Footer end -->
+      <!-- Footer end -->
+    </div>
 
-  </div>
+    <!-- Main wrapper end -->
 
-  <!-- Main wrapper end -->
+    <!-- All JS files -->
 
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
 
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
+    <script src="assets/js/mixitup.min.js"></script>
 
-  <!-- All JS files -->
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
 
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
 
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-  <script src="assets/js/swiper-bundle.min.js"></script>
-
-  <script src="assets/js/mixitup.min.js"></script>
-
-  <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"> </script>
-
-  <script src="assets/js/wow.min.js"></script>
-
-  <script src="assets/js/scripts.js"></script>
-
-
-
-
-
-</body>
-
-
-
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
